@@ -1,0 +1,62 @@
+/* Example styling of a h1 element */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  background-color: lightpink;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 40px;
+  letter-spacing: 2px;
+  margin-bottom: 0px;
+  background-color: #a3f3eb;
+}
+
+p1 {
+  color: blue;
+  font-size: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  }
+
+p2 {
+    color: red;
+    font-size: 20px;
+    padding-bottom: 5px;
+
+    }
+
+p3 {
+    color: red;
+    background-color: lightblue;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    text-align: center;
+
+    }
+
+    a:focus, a:hover {
+  border-bottom: 1px solid;
+}
+
+ul {
+  padding: 0;
+  width: 100%;
+  text-align: center;
+
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  display: inline-block;
+  width: 19.5%;
+  margin-right: 0.625%;
+  line-height: 3;
+  color: black;
+
+}
